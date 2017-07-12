@@ -288,7 +288,7 @@ namespace MarkdownMonster
             // SAVE COMMAND
             SaveCommand = new CommandBase((s, e) =>
             {
-                var tab = Window.TabControl?.SelectedItem as TabItem;
+                var tab = this.Window.TabControl?.SelectedItem as TabItem;
                 if (tab == null)
                     return;
                 var doc = tab.Tag as MarkdownDocumentEditor;

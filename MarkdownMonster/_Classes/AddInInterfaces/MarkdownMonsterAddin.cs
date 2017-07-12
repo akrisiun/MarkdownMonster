@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using FontAwesome.WPF;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -319,7 +320,7 @@ namespace MarkdownMonster.AddIns
         /// <param name="icon"></param>
         /// <param name="color"></param>
         /// <param name="spin"></param>
-        protected void SetStatusIcon(FontAwesome.WPF.FontAwesomeIcon icon, Color color,bool spin = false)
+        protected void SetStatusIcon(FontAwesomeIcon icon, Color color,bool spin = false)
         {
             Model.Window.SetStatusIcon(icon, color,spin);
             

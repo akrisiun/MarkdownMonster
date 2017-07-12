@@ -47,6 +47,12 @@ namespace MarkdownMonster
 
         public static string initialStartDirectory;
 
+        [STAThread]
+        public static void Main()
+        {
+            new App().Run();
+        }
+
         public App()
         {
             initialStartDirectory = Environment.CurrentDirectory;

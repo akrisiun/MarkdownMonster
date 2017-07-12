@@ -233,11 +233,11 @@ namespace MarkdownMonster
                 mmApp.SetTheme(mmApp.Configuration.ApplicationTheme,Window);
                 mmApp.SetThemeWindowOverride(Window);
                 
-                foreach (TabItem tab in Window.TabControl.Items)
-                {
-                    var editor = tab.Tag as MarkdownDocumentEditor;
-                    editor.RestyleEditor();
-                }
+                //foreach (TabItem tab in TabControl.Items)
+                //{
+                //    var editor = tab.Tag as MarkdownDocumentEditor;
+                //    editor.RestyleEditor();
+                //}
             }
 
             return true;
@@ -598,6 +598,13 @@ namespace MarkdownMonster
             Window.PreviewMarkdownAsync(keepScrollPosition: true);
         }
 
+        public class Window1
+        {
+            public TextBox StatusStats { get; set; }
+        }
+
+        //  public Window1 Window1 { get; set; }
+
         /// <summary>
         /// Callback to force updating of the status bar document stats
         /// </summary>
@@ -606,14 +613,14 @@ namespace MarkdownMonster
         {
             if (stats == null)
             {
-                Window.StatusStats.Text = "";
+                // Window.StatusStats.Text = "";
                 return;
             }
 
             int words = Convert.ToInt32(stats.wordCount);
             int lines = Convert.ToInt32(stats.lines);
 
-            Window.StatusStats.Text = $"{words:n0} words, {lines:n0} lines";
+            // Window1.StatusStats.Text = $"{words:n0} words, {lines:n0} lines";
             
             string enc = string.Empty;
             bool hasBom = true;
@@ -629,7 +636,7 @@ namespace MarkdownMonster
             else
                 enc = "UTF-8 (no BOM)";
 
-            Window.StatusEncoding.Text = enc;
+            // Window1.StatusEncoding.Text = enc;
 
         }
 

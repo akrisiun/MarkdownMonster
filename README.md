@@ -1,4 +1,78 @@
-﻿# Markdown Monster
+﻿## Restore error: 
+
+
+```
+
+<!--<ProjectReference Include="Dragablz" Version="0.0.3.181">
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="FontAwesome.WPF">
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="MahApps.Metro">
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="Markdig" Version="=0.10.4.0">
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="Newtonsoft.Json" Version="=9.0.0.0">
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="NHunspell" Version="1.2.5554.16953">
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="System.Windows.Interactivity">
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="Westwind.Utilities" Version="2.70.0.0">
+      <Private>True</Private>
+    </ProjectReference>-->
+
+C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3245: Could not res
+olve this reference. Could not locate the assembly "MahApps.Metro". Check to make sure the assembly exists on disk. If
+this reference is required by your code, you may get compilation errors. [\UTILS\MarkdownMonster\Mar
+kdownMonster\MarkdownMonster.csproj]
+C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3245: Could not res
+olve this reference. Could not locate the assembly "Markdig, Version=0.10.4.0, Culture=neutral, processorArchitecture=M
+SIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilati
+on errors. [\UTILS\MarkdownMonster\MarkdownMonster\MarkdownMonster.csproj]
+C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3245: Could not res
+olve this reference. Could not locate the assembly "NHunspell, Version=1.2.5554.16953, Culture=neutral, PublicKeyToken=
+1ac793ea843b4366, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is req
+uired by your code, you may get compilation errors. [\UTILS\MarkdownMonster\MarkdownMonster\Markdown
+Monster.csproj]
+C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): warning MSB3245: Could not res
+olve this reference. Could not locate the assembly "Westwind.Utilities, Version=2.70.0.0, Culture=neutral, processorArc
+hitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may ge
+t compilation errors. [\UTILS\MarkdownMonster\MarkdownMonster\MarkdownMonster.csproj]
+\UTILS\MarkdownMonster\MarkdownMonster\App.xaml(32,126): error MC3066: The type reference cannot fin
+d a public type named 'TabablzControl'. Line 32 Position 126. [\UTILS\MarkdownMonster\MarkdownMonste
+r\MarkdownMonster.csproj]
+\UTILS\MarkdownMonster\MarkdownMonster\MainWindow.xaml(1,23): error MC3074: The tag 'MetroWindow' do
+es not exist in XML namespace 'http://metro.mahapps.com/winfx/xaml/controls'. Line 1 Position 23. [\
+UTILS\MarkdownMonster\MarkdownMonster\MarkdownMonster.csproj]
+\UTILS\MarkdownMonster\MarkdownMonster\Styles\DragablzGeneric.xaml(10,6): error MC3074: The tag 'Equ
+alityToVisibilityConverter' does not exist in XML namespace 'clr-namespace:Dragablz.Converters;assembly=Dragablz'. Line
+ 10 Position 6. [\UTILS\MarkdownMonster\MarkdownMonster\MarkdownMonster.csproj]
+\UTILS\MarkdownMonster\MarkdownMonster\Windows\About.xaml(1,23): error MC3074: The tag 'MetroWindow'
+ does not exist in XML namespace 'http://metro.mahapps.com/winfx/xaml/controls'. Line 1 Position 23. [d:\Sanitex\PriceN
+et\UTILS\MarkdownMonster\MarkdownMonster\MarkdownMonster.csproj]
+\UTILS\MarkdownMonster\MarkdownMonster\Windows\AddinManagerWindow.xaml(1,23): error MC3074: The tag
+'MetroWindow' does not exist in XML namespace 'http://metro.mahapps.com/winfx/xaml/controls'. Line 1 Position 23. [d:\S
+anitex\PriceNet\UTILS\MarkdownMonster\MarkdownMonster\MarkdownMonster.csproj]
+\UTILS\MarkdownMonster\MarkdownMonster\Windows\PasteCode.xaml(1,24): error MC3074: The tag 'MetroWin
+dow' does not exist in XML namespace 'http://metro.mahapps.com/winfx/xaml/controls'. Line 1 Position 24. [d:\Sanitex\Pr
+iceNet\UTILS\MarkdownMonster\MarkdownMonster\MarkdownMonster.csproj]
+\UTILS\MarkdownMonster\MarkdownMonster\Windows\PasteImage.xaml(1,23): error MC3074: The tag 'MetroWi
+ndow' does not exist in XML namespace 'http://metro.mahapps.com/winfx/xaml/controls'. Line 1 Position 23. [d:\Sanitex\P
+riceNet\UTILS\MarkdownMonster\MarkdownMonster\MarkdownMonster.csproj]
+
+UTILS\MarkdownMonster\MarkdownMonster\Windows\PasteHref.xaml(1,24): error MC3074: The tag 'MetroWin
+dow' does not exist in XML namespace 'http://metro.mahapps.com/winfx/xaml/controls'. Line 1 Position 24. [d:\Sanitex\Pr
+iceNet\UTILS\MarkdownMonster\MarkdownMonster\MarkdownMonster.csproj]
+```
+
+# Markdown Monster
 #### An extensible Markdown Editor, Viewer and Weblog Publisher for Windows
 
 ![](Art/MarkdownMonster.png)
